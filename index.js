@@ -6,7 +6,7 @@ server.get("/", (req, res) => {
 });
 
 server.get("/github", (req, res) => {
-  res.send("Welcome to github");
+  res.send("Welcome to github again");
 });
 
 //if PORT dont exist add 3000
