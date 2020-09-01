@@ -4,6 +4,7 @@ const server = express();
 server.get("/", (req, res) => {
   res.send("Welcome Home");
 });
+
 server.get("/github", (req, res) => {
   res.send("Welcome to github");
 });
